@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TGUI.Net.win-x64/0.8.8.17": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SFML.Audio.dll": {},
+          "lib/netstandard2.0/SFML.Graphics.dll": {},
+          "lib/netstandard2.0/SFML.System.dll": {},
+          "lib/netstandard2.0/SFML.Window.dll": {},
+          "lib/netstandard2.0/tgui.net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SFML.Audio.dll": {},
+          "lib/netstandard2.0/SFML.Graphics.dll": {},
+          "lib/netstandard2.0/SFML.System.dll": {},
+          "lib/netstandard2.0/SFML.Window.dll": {},
+          "lib/netstandard2.0/tgui.net.dll": {}
+        },
+        "build": {
+          "build/TGUI.Net.win-x64.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TGUI.Net.win-x64/0.8.8.17": {
+      "sha512": "s0KValEhC5h6CTxrCEq4Ddxn6pCmMkmyjYT/Xq87gUhKb+p+TPrY3QMNldCSz96SqlFvGXwfi5lx0AqX+O2q3A==",
+      "type": "package",
+      "path": "tgui.net.win-x64/0.8.8.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetIcon.png",
+        "build/TGUI.Net.win-x64.targets",
+        "build/csfml-audio.dll",
+        "build/csfml-graphics.dll",
+        "build/csfml-system.dll",
+        "build/csfml-window.dll",
+        "build/ctgui-0.8.dll",
+        "build/sfml-audio-2.dll",
+        "build/sfml-graphics-2.dll",
+        "build/sfml-system-2.dll",
+        "build/sfml-window-2.dll",
+        "build/tgui.dll",
+        "lib/netstandard2.0/SFML.Audio.dll",
+        "lib/netstandard2.0/SFML.Graphics.dll",
+        "lib/netstandard2.0/SFML.System.dll",
+        "lib/netstandard2.0/SFML.Window.dll",
+        "lib/netstandard2.0/tgui.net.dll",
+        "lib/netstandard2.0/tgui.net.xml",
+        "tgui.net.win-x64.0.8.8.17.nupkg.sha512",
+        "tgui.net.win-x64.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "TGUI.Net.win-x64 >= 0.8.8.17"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Cloud\\OneDrive - Unitec NZ\\DataStructures\\SFML Final Project\\SFML_Assignment\\SFML_Assignment.csproj",
+      "projectName": "SFML_Assignment",
+      "projectPath": "D:\\Cloud\\OneDrive - Unitec NZ\\DataStructures\\SFML Final Project\\SFML_Assignment\\SFML_Assignment.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Cloud\\OneDrive - Unitec NZ\\DataStructures\\SFML Final Project\\SFML_Assignment\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "TGUI.Net.win-x64": {
+            "target": "Package",
+            "version": "[0.8.8.17, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

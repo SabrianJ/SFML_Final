@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SFML_Assignment/1.0.0": {
+        "dependencies": {
+          "TGUI.Net.win-x64": "0.8.8.17"
+        },
+        "runtime": {
+          "SFML_Assignment.dll": {}
+        }
+      },
+      "TGUI.Net.win-x64/0.8.8.17": {
+        "runtime": {
+          "lib/netstandard2.0/SFML.Audio.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          },
+          "lib/netstandard2.0/SFML.Graphics.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          },
+          "lib/netstandard2.0/SFML.System.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          },
+          "lib/netstandard2.0/SFML.Window.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          },
+          "lib/netstandard2.0/tgui.net.dll": {
+            "assemblyVersion": "0.8.8.17",
+            "fileVersion": "0.8.8.17"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SFML_Assignment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TGUI.Net.win-x64/0.8.8.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s0KValEhC5h6CTxrCEq4Ddxn6pCmMkmyjYT/Xq87gUhKb+p+TPrY3QMNldCSz96SqlFvGXwfi5lx0AqX+O2q3A==",
+      "path": "tgui.net.win-x64/0.8.8.17",
+      "hashPath": "tgui.net.win-x64.0.8.8.17.nupkg.sha512"
+    }
+  }
+}
